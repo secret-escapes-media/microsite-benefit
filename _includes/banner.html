@@ -1,0 +1,10 @@
+<section class="title-banner" style="background-image: url({{site.baseurl}}/img/bg/banner-{{ page.class }}.jpg);">
+  <div class="title-banner__wrap">
+    <div class="title-banner__content row row--padding invert-text align-center">
+
+      <h1 class="title title--larger title--expanded title--light title--upper">{% if page.banner-title %}{{ page.banner-title }}{% else %}{{ page.title }}{% endif %}</h1>
+
+    </div>
+  </div>
+</section>
+{% include microsite-nav.html %}
