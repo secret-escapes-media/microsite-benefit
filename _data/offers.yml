@@ -1,25 +1,140 @@
+
+##  =========================
+##  PAMPERING OFFERS
+##  =========================
+
   - title: An offer
-    category: category-1
+    category: pampering
     location: Region, Country
     description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
     price: 999999
     price-description: per room per night
-    saved: 40%
+    saved: 10
+    expires: 2016-03-23
+    link: #
+
+  - title: An offer
+    category: pampering
+    location: Region, Country
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
+    price: 999999
+    price-description: per room per night
+    saved: 20
+    expires: 2016-03-23
+    link: #
+
+  - title: An offer
+    category: pampering
+    location: Region, Country
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
+    price: 999999
+    price-description: per room per night
+    saved: 20
+    expires: 2016-03-23
+    link: #
+
+
+
+##  =========================
+##  SEASIDE OFFERS
+##  =========================
+
+  - title: Another offer
+    category: seaside
+    location: Region, Country
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
+    price: 999999
+    price-description: per room per night
+    saved: 30
     expires: 2016-03-23
     link: #
 
   - title: Another offer
-    category: category-2
+    category: seaside
     location: Region, Country
     description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
     price: 999999
     price-description: per room per night
+    saved: 30
+    expires: 2016-03-23
+    link: #
+
+  - title: Another offer
+    category: seaside
+    location: Region, Country
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
+    price: 999999
+    price-description: per room per night
+    saved: 30
+    expires: 2016-03-23
+    link: #
+
+
+##  =========================
+##  POSH PADS OFFERS
+##  =========================
+
+  - title: A third offer
+    category: posh-pads
+    location: Region, Country
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
+    price: 999999
+    price-description: per room per night
+    saved: 80
+    expires: 2016-03-23
     link: #
 
   - title: A third offer
-    category: category-3
+    category: posh-pads
     location: Region, Country
     description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
     price: 999999
     price-description: per room per night
+    saved: 80
+    expires: 2016-03-23
+    link: #
+
+  - title: A third offer
+    category: posh-pads
+    location: Region, Country
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
+    price: 999999
+    price-description: per room per night
+    saved: 80
+    expires: 2016-03-23
+    link: #
+
+
+##  =========================
+##  UNIQUE OFFERS
+##  =========================
+
+  - title: A third offer
+    category: unique
+    location: Region, Country
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
+    price: 999999
+    price-description: per room per night
+    saved: 25
+    expires: 2016-03-23
+    link: #
+
+  - title: A third offer
+    category: unique
+    location: Region, Country
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
+    price: 999999
+    price-description: per room per night
+    saved: 25
+    expires: 2016-03-23
+    link: #
+
+  - title: A third offer
+    category: unique
+    location: Region, Country
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
+    price: 999999
+    price-description: per room per night
+    saved: 25
+    expires: 2016-03-23
     link: #

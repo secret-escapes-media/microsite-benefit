@@ -6,6 +6,7 @@
   height: 75%;
   text-align: center;
   color: white;
+  @include background-attributes();
 
   &__wrap {
     position: absolute;
@@ -13,8 +14,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: $z-content;
-    background-color: $black-15;
+    z-index: $z-content-upper;
   }
 
   &__content {
@@ -31,6 +31,15 @@
       padding-top: 0;
       transform: translateY(-50%);
     }
+  }
+
+  &__overlay {
+    content: "";
+    position: absolute;
+    z-index: $z-content;
+    top:0;bottom:0;left:0;right:0;
+    background-color: $dark-grey;
+    opacity: 0.25;
   }
 
 }

@@ -34,12 +34,12 @@ $se-dark-grey-5:  rgba(41,39,40,.5);
 $se-dark-grey-66: rgba(41,39,40,.66);
 $se-dark-grey-85: rgba(41,39,40,.85);
 
-$partner-primary:   #6dccea;
-$partner-secondary: #50679e;
+$partner-primary:   #b88651;
+$partner-secondary: #882048;
 
-$text-black:      #0d0d0d;
-$text-heading:    #0d0d0d;
-$text-paragraph:  #5f5f5f;
+$text-black:      #2f2f2f;
+$text-heading:    #2f2f2f;
+$text-paragraph:  #7a7a7a;
 
 
 // -------- breakpoints --------
@@ -52,6 +52,27 @@ $medium:    450px;
 $small:     300px;
 
 @mixin bp($width){
+  @if $width == xxxlarge {
+    @media (min-width:$xxxlarge) {@content;}
+  }
+  @if $width == xxlarge {
+    @media (min-width:$xxlarge) {@content;}
+  }
+  @if $width == xlarge {
+    @media (min-width:$xlarge) {@content;}
+  }
+  @if $width == large {
+    @media (min-width:$large) {@content;}
+  }
+  @if $width == medium {
+    @media (min-width:$medium) {@content;}
+  }
+  @if $width == small {
+    @media (min-width:$small) {@content;}
+  }
+}
+
+@mixin min-bp($width){
   @if $width == xxxlarge {
     @media (min-width:$xxxlarge) {@content;}
   }
@@ -163,26 +184,6 @@ $z-nav:             10;
 $z-content-upper:   5;
 $z-content:         0;
 $z-background:      -1;
-
-
-// -------- background image ratios --------
-
-.bg-image-ratio {
-  position: relative;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  &:before {
-    display: block;
-    content: "";
-    width: 100%;
-  }
-}
-.bg-image-ratio--1-1:before   { padding-top: 100%; }
-.bg-image-ratio--4-3:before   { padding-top: 75%; }
-.bg-image-ratio--3-2:before   { padding-top: 66.666666666667%; }
-.bg-image-ratio--16-9:before  { padding-top: 56.25%; }
-.bg-image-ratio--21-9:before  { padding-top: 42.8571429%; }
 
 
 // -------- generic styles --------

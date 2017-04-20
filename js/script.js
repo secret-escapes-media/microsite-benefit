@@ -131,5 +131,23 @@
     });
 
 
+///////////////////////////////////////
+//       Banner
+///////////////////////////////////////
+
+function bannerfade(){
+	var st = $(document).scrollTop();
+	var wh = $(window).height();
+
+	$('.title-banner__overlay').css({
+    "opacity": st / wh + 0.25
+	});
+
+}
+
+$(document).scroll(function() {
+	bannerfade();
+});
+
 ///////////////////////////////////////////////////////////////////////////////
 });})(jQuery, this); // on ready end

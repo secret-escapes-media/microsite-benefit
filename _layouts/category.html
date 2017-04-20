@@ -3,3 +3,41 @@
 layout: default
 
 ---
+
+
+
+<section class="section__intro section__overlap section__intro--{{ page.class }} invert-text align-center">
+  <div class="row row--padding">
+    {{ page.intro }}
+  </div>
+</section>
+
+
+
+{% assign offers = site.data.offers | where: "category", page.class | sort: 'saved' | reverse %}
+{% if offers.size != 0 %}
+  <section class="section offers">
+    <div class="row row--padding">
+      {% for offer in offers %}
+        {% include offer-small.html %}
+      {% endfor %}
+    </div>
+    <div class="align-center">
+      <a href="{{site.baseurl}}/offers" class="btn btn--orange">View All Offers</a>
+    </div>
+  </section>
+{% else %}
+  <section class="section offer-promo align-center invert-text">
+    <div class="offer-promo__bgs">
+      {% assign offers = site.data.offers %}
+      {% for offer in offers limit: 3 %}
+        <div class="offer-promo__bg" style="background-image: url('{{ site.baseurl }}/img/offers/{{ offer.title | slugify }}.jpg')"></div>
+      {% endfor %}
+    </div>
+    <div class="row row--padding offer-promo__content">
+      <h2 class="title title--medium title--light title--expanded title--margin-none">Wanderlust reeling? <br>Have a look at these...</h2>
+      <p class="p--lead">See more of our Secret Escapes offers and expect luxury digs on a shoestring</p>
+      <a href="{{site.baseurl}}/offers" class="btn btn--orange">View All Offers</a>
+    </div>
+  </section>
+{% endif %}

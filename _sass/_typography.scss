@@ -6,6 +6,7 @@
 $core-font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 $main-font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 $title-font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+$serif-font-family: 'Arapey', Didot,"Didot LT STD","Bodoni MT","Hoefler Text",Garamond,"Times New Roman",serif;
 
 html { font-size:62.5%; }
 body,
@@ -24,9 +25,9 @@ input, textarea, keygen, select, button {
 .title {
   font-family: $title-font-family;
   color: $text-heading;
-  letter-spacing: .025em;
+  letter-spacing: .075em;
   line-height: 1.15;
-  + * { margin-top: .5em; }
+  + * { margin-top: 1em; }
 
   &--spacing {
     * + & { margin-top: 15px; }
@@ -46,10 +47,6 @@ input, textarea, keygen, select, button {
 
   &--largest {
     font-size: 4.3em;
-    &-sub {
-      display: block;
-      font-size: .55em;
-    }
   }
   &--larger      { font-size: 3.375em; }
   &--large       { font-size: 2.986em; }
@@ -67,10 +64,12 @@ input, textarea, keygen, select, button {
     &--small       { font-size: 2.467em; }
     &--smaller     { font-size: 2.25em; }
   }
+
+  &--serif { font-family: $serif-font-family; }
 }
 
 .p {
-  &--lead {}
+  &--lead { }
   &--large { font-size: 1.05em; }
   &--small { font-size: .85em; }
 
@@ -85,13 +84,12 @@ input, textarea, keygen, select, button {
   &--italic    { font-style: italic; }
   @include bp(large){
     &--lead {
-      font-size: 1.25em;
+      font-size: 1.3em;
       line-height: 1.55;
     }
   }
-
-  .align-center &, &.align-center { margin-left: auto; margin-right: auto; }
 }
+.align-center p, p.align-center { margin-left: auto; margin-right: auto; }
 
 
 
@@ -138,6 +136,7 @@ dl {
 
 // -------- general content styles --------
 
+p             { max-width: $xlarge; }
 p + *         { margin-top: 1em; }
 li            { list-style-position: inside; }
 ul li         { list-style-type: disc; }

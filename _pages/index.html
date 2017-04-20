@@ -3,19 +3,39 @@
 layout: default
 title: Overview
 class: overview
+color: "#b88651"
 nav-order: 1
 
+banner-title: Blissful Breaks
+
 intro: >
-  <p class="p--lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae harum quasi magni veniam eos laborum velit, provident laboriosam, distinctio laudantium voluptas natus sapiente nobis, amet.</p>
-  <p>Maiores, quo eum iste quisquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae harum quasi magni veniam eos laborum velit, provident laboriosam, distinctio laudantium voluptas natus sapiente nobis, amet. Maiores, quo eum iste quisquam!</p>
+  <p class="p--lead">Explore a selection of decadent stays that offer an experience like no other. These selections are a far-cry from your traditional hotel stay – for those that want something a bit more special. 100% Instagram friendly, these breaks will make you the envy of your friends, and allow you to kick-back and just relax.</p>
 
 ---
 
 
 
-<section>
+<section class="section__intro section__overlap section__intro--{{ page.class }} invert-text align-center">
   <div class="row row--padding">
-    <h2 class="title title--small title--upper title--expanded">Title here</h2>
     {{ page.intro }}
+  </div>
+</section>
+
+
+
+<section>
+  <div class="row row--padding row--columns-6-6-gutters align-center invert-text">
+    {% assign category-pages = site.pages | where: "layout", "category" %}
+
+    {% for category-page in category-pages %}
+    <a id="title_link-category-{{ category-page.class }}" href="{{ site.baseurl }}{{ category-page.url }}" class="category-link row__column bg-image bg-image--ratio-16-9 invert-text" style="background-image: url('{{ site.baseurl }}/img/bg/categorythumb-{{ category-page.class }}.jpg');">
+      <div class="bg-image__content">
+
+        <h3 class="title title--medium title--upper title--margin-none">{{ category-page.alternative-title }}</h3>
+
+      </div>
+    </a>
+    {% endfor %}
+
   </div>
 </section>

@@ -1,9 +1,10 @@
 ---
 
-layout: default
+layout: basic
 title: Benefit
 class: benefit
-nav-order: 7
+color: "#882048"
+nav-order: 8
 
 intro: >
   <p class="p--lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae harum quasi magni veniam eos laborum velit, provident laboriosam, distinctio laudantium voluptas natus sapiente nobis, amet.</p>
@@ -13,9 +14,57 @@ intro: >
 
 
 
+<section class="section__intro section__intro--{{ page.class }} invert-text align-center">
+  <div class="row row--padding">
+    {{ page.intro }}
+  </div>
+</section>
+
+
+
 <section>
   <div class="row row--padding">
-    <h2 class="title title--small title--upper title--expanded">Title here</h2>
-    {{ page.intro }}
+    <div class="bob row--columns-6-6-gutters">
+
+      <div class="row__column bob__text">
+        <p class="p--lead">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. </p>
+        <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+        <a href="{{ site.baseurl }}benefit" class="btn btn--solid">Learn more</a>
+      </div>
+
+      <a href="{{ site.baseurl }}/benefit" class="row__column bob__image bg-image bg-image--border bg-image--ratio bg-image--ratio-3-2" style="background-image: url({{site.baseurl}}/img/content/benefit-banner.jpg);"></a>
+
+    </div>
+  </div>
+</section>
+
+
+
+<section class="bg--white">
+  <div class="row row--padding row--columns-4-4-4-gutters">
+
+    <div class="row__column">
+      <p class="p--lead">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. </p>
+      <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+    </div>
+
+    <div class="row__column">
+      <p class="p--lead">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. </p>
+      <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+    </div>
+
+    <div class="row__column">
+      <p class="p--lead">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. </p>
+      <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+    </div>
+
+  </div>
+</section>
+
+
+
+<section class="bg--partner-primary">
+  <div class="row row--padding align-center">
+    <a href="#" class="btn btn--large btn--solid btn--invert">Shop now</a>
   </div>
 </section>

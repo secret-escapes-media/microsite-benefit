@@ -180,8 +180,8 @@ $nav-arrow-width: 66px;
     @include transition;
     &:last-of-type { border-right: .5px solid $light-grey; }
     &.is-current {
-      color: $se-orange;
-      background-color: $light-grey;
+      color: $partner-primary;
+      background-color: $white;
       border-color: $light-grey;
     }
     &:hover {
@@ -346,26 +346,6 @@ $mobile-nav-width: 75%;
   @include bp(xlarge){
     display: none;
   }
-}
-
-
-// ---------- SITE FOOTER ----------
-.footer {
-  background-color: $black-85;
-  &__logos {
-    font-size: .9em;
-    border-top: 1px solid $white-15;
-    padding-top: $margin;
-    padding-bottom: $margin;
-  }
-  .logo {
-    vertical-align: middle;
-    margin-left: ($margin/4);
-    margin-right: ($margin/4);
-  }
-  p { margin-top: .5em; }
-  .logo--secret-escapes { max-width: 110px; }
-  .logo--partner { max-width: 69px; }
 }
 
 

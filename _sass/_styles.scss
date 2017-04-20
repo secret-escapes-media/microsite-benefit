@@ -1,5 +1,41 @@
 // all custom styles for the site
 
+body {
+  background-color: $light-grey;
+}
+
+
+// ---------- Site footer ----------
+
+.footer {
+  background-color: $black-85;
+
+  .site-nav {
+    background-color: $light-grey;
+    border-color: darken($light-grey,10);
+    border-bottom: 0;
+    &__item {
+      border-color: darken($light-grey,10) !important;
+      &:hover {
+        background-color: $white;
+      }
+    }
+  }
+
+  &__logos {
+    font-size: .9em;
+    padding-top: $margin;
+    padding-bottom: $margin;
+  }
+  .logo {
+    vertical-align: middle;
+    margin-left: ($margin/4);
+    margin-right: ($margin/4);
+  }
+  p { margin-top: .5em; }
+  .logo--secret-escapes { max-width: 110px; }
+  .logo--partner { max-width: 69px; }
+}
 
 // ---------- Section styles ----------
 
@@ -28,17 +64,97 @@
 .btn {
   @include transition;
   display:inline-block;
-  padding: .5em 1.5em;
-  border: 1px solid $se-orange;
-  font-weight: 500;
-  border-radius: 10em;
+  padding: .5em 3em;
+  border-radius: 5px;
+  border: 2px solid $partner-primary;
+  color: $partner-primary;
+  font-family: $title-font-family;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 0.9em;
+  letter-spacing: 0.1em;
   &:hover {
     color: white;
-    background-color: $se-orange;
+    background-color: darken($partner-primary, 10);
     text-decoration: none;
   }
   * + & { margin-top: 1em; }
 
-  &--solid { color: white; border: 0; background-color: $se-orange; }
-  &--large { font-size: 1.2em; padding: .5em 3em; }
+  &--small { font-size: 0.8em; padding: .3em 2em; }
+  &--large { font-size: 1.2em; padding: .6em 3em; }
+
+  &--solid { color: white; border: 0; background-color: $partner-primary; }
+  &--invert { color: $partner-primary; border: 0; background-color: $white; }
+
+  &--se {
+    background-color: $se-orange;
+    &.btn--invert { color: $se-orange; background-color: $white; }
+  }
+}
+
+
+// ---------- sections ----------
+
+.section {
+  &__overlap {
+    padding-bottom: 7em;
+    margin-bottom: -7em;
+  }
+  &__intro {
+    color: white;
+    background-color: #b88651;
+    background: url('../img/content/sunburst.png') bottom center no-repeat, linear-gradient(135deg, #882048 0%,#b88651 100%);
+
+    &--overview {
+      background-color: #b88651;
+      background: url('../img/content/sunburst.png') bottom center no-repeat, linear-gradient(135deg, #882048 0%,#b88651 100%);
+    }
+    &--pampering {
+      background-color: #6f4752;
+      background: url('../img/content/sunburst.png') bottom center no-repeat, linear-gradient(135deg, #b49870 0%,#6f4752 100%);
+    }
+    &--seaside {
+      background-color: #34836c;
+      background: url('../img/content/sunburst.png') bottom center no-repeat, linear-gradient(135deg, #34836c 0%,#b2ac9b 100%);
+    }
+    &--posh-pads {
+      background-color: #a59892;
+      background: url('../img/content/sunburst.png') bottom center no-repeat, linear-gradient(135deg, #d7af69 0%,#a59892 100%);
+    }
+    &--unique {
+      background-color: #522c58;
+      background: url('../img/content/sunburst.png') bottom center no-repeat, linear-gradient(135deg, #5894b1 0%,#522c58 100%);
+    }
+    &--offers {
+      background-color: #b88651;
+      background: url('../img/content/sunburst.png') bottom center no-repeat, linear-gradient(135deg, #882048 0%,#b88651 100%);
+    }
+    &--competition {
+      background-color: #b88651;
+      background: url('../img/content/sunburst.png') bottom center no-repeat, linear-gradient(135deg, #882048 0%,#b88651 100%);
+    }
+    &--benefit {
+      background-color: #b88651;
+      background: url('../img/content/sunburst.png') bottom center no-repeat, linear-gradient(135deg, #882048 0%,#b88651 100%);
+    }
+  }
+}
+
+
+// ---------- OVERVIEW ----------
+
+.category-link {
+  border: 6px solid white;
+  padding: 0;
+  margin-bottom: $margin;
+  .title {
+    @include transition();
+    text-shadow: 4px 3px 0 rgba(0,0,0,0.2);
+    letter-spacing: 0.075em;
+  }
+  &:hover .title {
+    letter-spacing: 0.09em;
+    text-shadow: 5px 4px 0 rgba(0,0,0,0.4);
+  }
+  .bg-image__content { padding: 3em; }
 }

@@ -1,9 +1,9 @@
 ---
 
-layout: default
+layout: basic
 title: Competition
 class: competition
-nav-order: 8
+nav-order: 7
 
 intro: >
   <p class="p--lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae harum quasi magni veniam eos laborum velit, provident laboriosam, distinctio laudantium voluptas natus sapiente nobis, amet.</p>
@@ -13,9 +13,8 @@ intro: >
 
 
 
-<section>
+<section class="section__intro section__intro--{{ page.class }} invert-text align-center">
   <div class="row row--padding">
-    <h2 class="title title--small title--upper title--expanded">Title here</h2>
     {{ page.intro }}
   </div>
 </section>
