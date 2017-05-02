@@ -35,6 +35,10 @@ section {
   @include container( $xxxlarge );
   position: relative;
   & + .row { margin-top: $margin; }
+  &--thin {
+    position: relative;
+    @include container( $xxlarge );
+  }
 }
 
 .row--padding {

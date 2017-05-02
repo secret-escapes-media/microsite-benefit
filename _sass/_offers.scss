@@ -182,7 +182,7 @@
   position: relative;
   padding-top: ($margin*6);
   padding-bottom: ($margin*6);
-  background-color: rgba(60, 67, 76, 0.75);
+  background-color: rgba($partner-tertiary, 0.75);
   &__bgs {
     position: absolute;
     top: 0;

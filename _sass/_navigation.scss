@@ -180,7 +180,7 @@ $nav-arrow-width: 66px;
     @include transition;
     &:last-of-type { border-right: .5px solid $light-grey; }
     &.is-current {
-      color: $partner-primary;
+      color: $partner-secondary;
       background-color: $white;
       border-color: $light-grey;
     }

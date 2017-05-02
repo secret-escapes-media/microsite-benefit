@@ -56,6 +56,14 @@ body {
   &--se-dark-grey  { background-color: $se-dark-grey; }
   &--partner-primary   { background-color: $partner-primary; }
   &--partner-secondary { background-color: $partner-secondary; }
+  &--hoola {
+    background-color: #A0DFE4; background-image: url('../img/bg/hoola-background.gif');
+    & * { color: #354a4c; }
+  }
+  &--dots {
+    background-color: #fce3df; background-image: url('../img/bg/bg-pattern-bigdots-lightpink.gif');
+    & * { color: #614d4a; }
+  }
 }
 
 
@@ -78,16 +86,29 @@ body {
     background-color: darken($partner-primary, 10);
     text-decoration: none;
   }
-  * + & { margin-top: 1em; }
+  * + & { margin-top: 1.5em; }
 
   &--small { font-size: 0.8em; padding: .3em 2em; }
   &--large { font-size: 1.2em; padding: .6em 3em; }
 
   &--solid { color: white; border: 0; background-color: $partner-primary; }
-  &--invert { color: $partner-primary; border: 0; background-color: $white; }
+  &--primary { background-color: $partner-primary; }
+  &--secondary {
+    background-color: $partner-secondary;
+    &:hover { background-color: darken($partner-secondary, 10); }
+  }
+  &--invert {
+    color: $partner-primary; border: 0; background-color: $white;
+    &.btn--primary { color: $partner-primary; }
+    &.btn--secondary {
+      color: $partner-secondary;
+      &:hover { background-color: darken($partner-secondary, 10); color: $white; }
+    }
+  }
 
   &--se {
     background-color: $se-orange;
+    &:hover { background-color: darken($se-orange, 10); }
     &.btn--invert { color: $se-orange; background-color: $white; }
   }
 }
@@ -157,4 +178,15 @@ body {
     text-shadow: 5px 4px 0 rgba(0,0,0,0.4);
   }
   .bg-image__content { padding: 3em; }
+}
+
+
+
+.box {
+  background-color: $white;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba($black, 0.1);
+  &__image {}
+  &__content { padding: $margin; }
 }
