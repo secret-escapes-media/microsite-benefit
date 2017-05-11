@@ -1,12 +1,18 @@
 <section class="title-banner" style="background-image: url({{site.baseurl}}/img/bg/banner-{{ page.class }}.jpg);">
   <div class="title-banner__wrap">
-    <div class="title-banner__content row row--padding invert-text align-center">
+    <div class="title-banner__content row invert-text align-center">
 
       {% unless page.class == 'overview' %}
         <span class="title--serif title--smaller title--upper title--expanded">Blissful Breaks</span>
       {% endunless %}
 
-      <h1 class="title title--larger title--expanded title--light title--upper">{% if page.banner-title %}{{ page.banner-title }}{% else %}{{ page.title }}{% endif %}</h1>
+      {% if page.class == 'overview' %}
+        <h1 class="title title--larger title--expanded title--light title--upper">
+          <img class="title-banner__svg-title" src="{{site.baseurl}}/img/bg/overview-title.svg" width="80%" alt="{% if page.banner-title %}{{ page.banner-title }}{% else %}{{ page.title }}{% endif %}">
+        </h1>
+      {% else %}
+        <h1 class="js-fit-text title title--larger title--expanded title--light title--upper">{% if page.banner-title %}{{ page.banner-title }}{% else %}{{ page.title }}{% endif %}</h1>
+      {% endif %}
 
     </div>
   </div>

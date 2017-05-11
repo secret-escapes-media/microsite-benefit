@@ -12,6 +12,7 @@
   "devDependencies": {
     "jquery": "1.11.1",
     "susy": "~2.2.6",
+    "FitText.js": "^1.2.0",
     "reset-css": "^2.2.0"
   }
 }

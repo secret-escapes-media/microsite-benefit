@@ -29,6 +29,9 @@
     $('html').addClass('touch');
   }
 
+  // fit text for the main title
+  $('.js-fit-text').fitText(1, { minFontSize: '30px', maxFontSize: '100px' });
+
 
 ///////////////////////////////////////
 //        Navigation
