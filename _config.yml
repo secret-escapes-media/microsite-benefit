@@ -1,7 +1,8 @@
 # Site settings
 title: Blissful Breaks
+top-nav: Benefit Cosmetics
 description: >
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi veniam voluptatibus totam accusantium laborum quo dolore.
+  You needn’t go far this summer to catch that balmy glow – save a little on flights and spend the extra on a luxurious break that’s closer than you may think...
 baseurl: "/blissful-breaks" # the subpath of your site, e.g. /blog/
 url: "http://mp.secretescapes.com" # the base hostname & protocol for your site
 
