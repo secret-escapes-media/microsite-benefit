@@ -8,7 +8,6 @@
   &--ratio-1-1, &--ratio-4-3, &--ratio-3-2, &--ratio-16-9, &--ratio-21-9, &--ratio-5-2 {
     display: block;
     position: relative;
-    background-color: $dark-grey;
     @include background-attributes();
     &:before {
       display: block;
