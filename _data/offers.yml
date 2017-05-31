@@ -3,35 +3,41 @@
 ##  PAMPERING OFFERS
 ##  =========================
 
-  - title: An offer
+  - title: Champneys Forest Mere
     category: pampering
-    location: Region, Country
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
-    price: 999999
+    location: Liphook, Hampshire
+    description: A covetable Champneys break in the South Downs, with healthy meals and thalassotherapy
+    price: 214
     price-description: per room per night
-    saved: 10
-    expires: 2016-03-23
-    link: #
+    saved: 45
+    link: https://www.secretescapes.com/champneys-forest-mere-liphook-hampshire/sale?gce_wsp=1&utm_source=SE&utm_medium=Hub&utm_campaign=Benefit_010617
 
-  - title: An offer
+  - title: K West Hotel & Spa
     category: pampering
-    location: Region, Country
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
-    price: 999999
+    location: Shepherd's Bush, London
+    description: An elegantly modern base with award-winning spa and on-trend interiors in West London
+    price: 169
     price-description: per room per night
-    saved: 20
-    expires: 2016-03-23
-    link: #
+    saved: 46
+    link: https://www.secretescapes.com/k-west-hotel-and-spa-shepherds-bush-london/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Benefit_010617
 
-  - title: An offer
+  - title: The Bishopstrow Hotel & Spa
     category: pampering
-    location: Region, Country
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
-    price: 999999
+    location: Warminster, Wiltshire
+    description: A stylish stay at a historic hotel in the Wiltshire countryside, with access to the luxury spa
+    price: 159
     price-description: per room per night
-    saved: 20
-    expires: 2016-03-23
-    link: #
+    saved: 51
+    link: https://www.secretescapes.com/the-bishopstrow-hotel-and-spa-warminster-wiltshire/sale?gce_wsp=1&utm_source=SE&utm_medium=Hub&utm_campaign=Benefit_010617
+
+  - title: Seaham Hall
+    category: pampering
+    location: Seaham, Durham
+    description: Five-star spa bliss and boutique interiors on the coast of County Durham, with a spacious suite
+    price: 185
+    price-description: per room per night
+    saved: 43
+    link: https://www.secretescapes.com/seaham-hall-seaham-durham/sale?gce_wsp=1&utm_source=SE&utm_medium=Hub&utm_campaign=Benefit_010617
 
 
 
@@ -39,102 +45,122 @@
 ##  SEASIDE OFFERS
 ##  =========================
 
-  - title: Another offer
+  - title: Langham Hotel
     category: seaside
-    location: Region, Country
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
-    price: 999999
+    location: Eastbourne, East Sussex
+    description: An adults-only break right on Eastbourne's iconic seafront, with an AA Rosette-awarded restaurant
+    price: 79
     price-description: per room per night
-    saved: 30
-    expires: 2016-03-23
-    link: #
+    saved: 47
+    link: https://www.secretescapes.com/langham-hotel-eastbourne-east-sussex/sale?gce_wsp=1&utm_source=SE&utm_medium=Hub&utm_campaign=Benefit_010617
 
-  - title: Another offer
+  - title: Cary Arms & Spa
     category: seaside
-    location: Region, Country
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
-    price: 999999
+    location: Babbacombe, South Devon
+    description: A five-star, Condé Nast Johansens award-winner on the Devonshire coast, with a sleek spa
+    price: 199
     price-description: per room per night
-    saved: 30
-    expires: 2016-03-23
-    link: #
+    saved: 43
+    link: https://www.secretescapes.com/cary-arms-and-spa-babbacombe-south-devon/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Benefit_010617
 
-  - title: Another offer
+  - title: Lympstone Manor
     category: seaside
-    location: Region, Country
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
-    price: 999999
+    location: Lympstone Manor, Exmouth
+    description: A sensational new hotel in Exmouth, created by the highly acclaimed chef Michael Caines MBE
+    price: 549
     price-description: per room per night
-    saved: 30
-    expires: 2016-03-23
-    link: #
+    saved: 20
+    link: https://www.secretescapes.com/lympstone-manor-exmouth-devon/sale?gce_wsp=1&utm_source=SE&utm_medium=Hub&utm_campaign=Benefit_010617
 
 
 ##  =========================
 ##  POSH PADS OFFERS
 ##  =========================
 
-  - title: A third offer
+  - title: Thornbury Castle
     category: posh-pads
-    location: Region, Country
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
-    price: 999999
+    location: Thornbury, Gloucestershire
+    description: England's only Tudor castle hotel, set on historic landscaped grounds close to the Cotswolds
+    price: 219
     price-description: per room per night
-    saved: 80
-    expires: 2016-03-23
-    link: #
+    saved: 56
+    link: https://www.secretescapes.com/thornbury-castle-thornbury-gloucestershire/sale?gce_wsp=1&utm_source=SE&utm_medium=Hub&utm_campaign=Benefit_010617
 
-  - title: A third offer
+  - title: Royal Berkshire Hotel
     category: posh-pads
-    location: Region, Country
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
-    price: 999999
+    location: Ascot, Berkshire
+    description: A Queen Anne red brick mansion originally built for the Churchills, with refreshed interiors
+    price: 99
     price-description: per room per night
-    saved: 80
-    expires: 2016-03-23
-    link: #
+    saved: 42
+    link: https://www.secretescapes.com/royal-berkshire-hotel-ascot-berkshire/sale?gce_wsp=1&utm_source=SE&utm_medium=Hub&utm_campaign=Benefit_010617
 
-  - title: A third offer
+  - title: The Ickworth Hotel
     category: posh-pads
-    location: Region, Country
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
-    price: 999999
+    location: Bury St Edmunds, Suffolk
+    description: A stately retreat with Italianate-style grandeur - includes a family-friendly option and dinner
+    price: 129
     price-description: per room per night
-    saved: 80
-    expires: 2016-03-23
-    link: #
+    saved: 62
+    link: https://www.secretescapes.com/the-ickworth-hotel-bury-st-edmunds-suffolk/sale?gce_wsp=1&utm_source=SE&utm_medium=Hub&utm_campaign=Benefit_010617
+
+  - title: Solberge Hall
+    category: posh-pads
+    location: Northallerton, North Yorkshire
+    description: An elegant stay at a Georgian house hotel in a prime location, near the National Parks
+    price: 119
+    price-description: per room per night
+    saved: 42
+    link: https://www.secretescapes.com/solberge-hall-northallerton-north-yorkshire/sale?gce_wsp=1&utm_source=SE&utm_medium=Hub&utm_campaign=Benefit_010617
+
+  - title: Lainston House
+    category: posh-pads
+    location: Lainston House, Winchester
+    description: A five-star country hotel in Winchester with an award-winning restaurant – includes a cookery class
+    price: 450
+    price-description: per suite per night
+    saved: 28
+    link: https://www.secretescapes.com/lainston-house-winchester-hampshire/sale?gce_wsp=1&utm_source=SE&utm_medium=Hub&utm_campaign=Benefit_010617
+
+  - title: Ston Easton Park Hotel
+    category: posh-pads
+    location: Ston Easton, Somerset
+    description: A splendid Palladian mansion with grand period interiors, plus 36 acres of parkland to stroll around
+    price: 125
+    price-description: per room per night
+    saved: 36
+    link: https://www.secretescapes.com/ston-easton-park-hotel-ston-easton-somerset/sale?gce_wsp=1&utm_source=SE&utm_medium=Hub&utm_campaign=Benefit_010617
 
 
 ##  =========================
 ##  UNIQUE OFFERS
 ##  =========================
 
-  - title: A third offer
+  - title: The Aviator Hotel
     category: unique
-    location: Region, Country
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
-    price: 999999
+    location: Farnborough, Hampshire
+    description: A luxurious stay in a striking design hotel, with breakfast and optional three-course dinner
+    price: 89
     price-description: per room per night
-    saved: 25
-    expires: 2016-03-23
-    link: #
+    saved: 67
+    link: https://www.secretescapes.com/the-aviator-hotel-farnborough-hampshire/sale?gce_wsp=1&utm_source=SE&utm_medium=Hub&utm_campaign=Benefit_010617
 
-  - title: A third offer
+  - title: M by Montcalm Shoreditch London Tech City
     category: unique
-    location: Region, Country
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
-    price: 999999
+    location: Shoreditch, London
+    description: Contemporary interiors and culinary delights at this five-star hotel, with summer availability
+    price: 180
     price-description: per room per night
-    saved: 25
-    expires: 2016-03-23
-    link: #
+    saved: 21
+    link: https://www.secretescapes.com/m-by-montcalm-shoreditch-london-tech-city-shoreditch-london/sale?gce_wsp=1&utm_source=SE&utm_medium=Hub&utm_campaign=Benefit_010617
 
-  - title: A third offer
+  - title: Tamburlaine
     category: unique
-    location: Region, Country
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
-    price: 999999
+    location: Station Road, Cambridge
+    description: Gorgeous, newly-opened designer-led digs, located by the train station and near central sights
+    price: 139
     price-description: per room per night
-    saved: 25
-    expires: 2016-03-23
-    link: #
+    saved: 61
+    link: https://www.secretescapes.com/tamburlaine-hotel-station-road-cambridge/sale?gce_wsp=1&utm_source=SE&utm_medium=Hub&utm_campaign=Benefit_010617
+
+

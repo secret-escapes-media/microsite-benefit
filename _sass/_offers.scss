@@ -65,7 +65,7 @@
     }
   }
   &__content {
-    padding: $margin;
+    padding: $margin/2 $margin;
     border-left: 1px solid $light-grey;
     border-right: 1px solid $light-grey;
     border-bottom: 1px solid $light-grey;
@@ -180,8 +180,8 @@
 
 .offer-promo {
   position: relative;
-  padding-top: ($margin*6);
-  padding-bottom: ($margin*6);
+  padding-top: ($margin*5);
+  padding-bottom: ($margin*5);
   background-color: rgba($partner-tertiary, 0.75);
   &__bgs {
     position: absolute;

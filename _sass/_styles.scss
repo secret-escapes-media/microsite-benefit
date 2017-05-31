@@ -99,6 +99,7 @@ body {
   }
   &--invert {
     color: $partner-primary; border: 0; background-color: $white;
+    &:hover { background-color: darken($partner-primary, 10); color: $white; }
     &.btn--primary { color: $partner-primary; }
     &.btn--secondary {
       color: $partner-secondary;

@@ -27,7 +27,7 @@ intro: >
 
 <section>
   <div class="row row--padding row--columns-6-6-gutters align-center invert-text">
-    {% assign category-pages = site.pages | where: "layout", "category" %}
+    {% assign category-pages = site.pages | where: "layout", "category" | sort:'nav-order' %}
 
     {% for category-page in category-pages %}
     <a id="title_link-category-{{ category-page.class }}" href="{{ site.baseurl }}{{ category-page.url }}" class="category-link row__column bg-image bg-image--ratio-16-9 invert-text" style="background-image: url('{{ site.baseurl }}/img/bg/categorythumb-{{ category-page.class }}.jpg');">

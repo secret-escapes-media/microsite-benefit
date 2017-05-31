@@ -13,7 +13,7 @@
 
     {{ content }}
 
-    {% unless page.class == 'benefit' %}
+    {% unless page.class == 'benefit' or page.class == 'offers' %}
       {% include benefit-banner.html %}
     {% endunless %}
 
