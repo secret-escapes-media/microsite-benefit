@@ -3,14 +3,14 @@
 ##  PAMPERING OFFERS
 ##  =========================
 
-  - title: Champneys Forest Mere
+  - title: The Cornwall Hotel, Spa & Estate
     category: pampering
-    location: Liphook, Hampshire
-    description: A covetable Champneys break in the South Downs, with healthy meals and thalassotherapy
-    price: 214
+    location: St Austell, Cornwall
+    description: A spa break at a luxury Cornish retreat, with a state-of-the-art wellness centre and infinity pool
+    price: 105
     price-description: per room per night
-    saved: 45
-    link: https://www.secretescapes.com/champneys-forest-mere-liphook-hampshire/sale?gce_wsp=1&utm_source=SE&utm_medium=Hub&utm_campaign=Benefit_010617
+    saved: 105
+    link: https://www.secretescapes.com/the-cornwall-hotel-spa-and-estate-st-austell-cornwall/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Benefit_060617
 
   - title: K West Hotel & Spa
     category: pampering
@@ -77,90 +77,81 @@
 ##  POSH PADS OFFERS
 ##  =========================
 
-  - title: Thornbury Castle
+  - title: Ellenborough Park
     category: posh-pads
-    location: Thornbury, Gloucestershire
-    description: England's only Tudor castle hotel, set on historic landscaped grounds close to the Cotswolds
-    price: 219
+    location: Cheltenham, Cotswolds
+    description: Magnificent grounds and architecture at a beautiful honey-hued retreat on the edge of Cheltenham
+    price: 149
     price-description: per room per night
-    saved: 56
-    link: https://www.secretescapes.com/thornbury-castle-thornbury-gloucestershire/sale?gce_wsp=1&utm_source=SE&utm_medium=Hub&utm_campaign=Benefit_010617
+    saved: 33
+    link: https://www.secretescapes.com/ellenborough-park-cheltenham-cotswolds/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Benefit_060617
 
-  - title: Royal Berkshire Hotel
+  - title: Langley Castle
     category: posh-pads
-    location: Ascot, Berkshire
-    description: A Queen Anne red brick mansion originally built for the Churchills, with refreshed interiors
-    price: 99
-    price-description: per room per night
-    saved: 42
-    link: https://www.secretescapes.com/royal-berkshire-hotel-ascot-berkshire/sale?gce_wsp=1&utm_source=SE&utm_medium=Hub&utm_campaign=Benefit_010617
-
-  - title: The Ickworth Hotel
-    category: posh-pads
-    location: Bury St Edmunds, Suffolk
-    description: A stately retreat with Italianate-style grandeur - includes a family-friendly option and dinner
+    location: Hexham, Northumberland
+    description: A majestic, 14th-century Northumberland castle, with stunning views and fine dining
     price: 129
     price-description: per room per night
-    saved: 62
-    link: https://www.secretescapes.com/the-ickworth-hotel-bury-st-edmunds-suffolk/sale?gce_wsp=1&utm_source=SE&utm_medium=Hub&utm_campaign=Benefit_010617
+    saved: 38
+    link: https://www.secretescapes.com/langley-castle-hexham-northumberland/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Benefit_060617
 
-  - title: Solberge Hall
+  - title: The Jockey Club Rooms
     category: posh-pads
-    location: Northallerton, North Yorkshire
-    description: An elegant stay at a Georgian house hotel in a prime location, near the National Parks
-    price: 119
+    location: Newmarket, Suffolk
+    description: A renowned Newmarket private members' club stay, with wine, fascinating tours and more
+    price: 270
     price-description: per room per night
-    saved: 42
-    link: https://www.secretescapes.com/solberge-hall-northallerton-north-yorkshire/sale?gce_wsp=1&utm_source=SE&utm_medium=Hub&utm_campaign=Benefit_010617
+    saved: 40
+    link: https://www.secretescapes.com/the-jockey-club-rooms-newmarket-suffolk/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Benefit_060617
 
-  - title: Lainston House
+  - title: Albion House at Ramsgate
     category: posh-pads
-    location: Lainston House, Winchester
-    description: A five-star country hotel in Winchester with an award-winning restaurant – includes a cookery class
-    price: 450
-    price-description: per suite per night
-    saved: 28
-    link: https://www.secretescapes.com/lainston-house-winchester-hampshire/sale?gce_wsp=1&utm_source=SE&utm_medium=Hub&utm_campaign=Benefit_010617
-
-  - title: Ston Easton Park Hotel
-    category: posh-pads
-    location: Ston Easton, Somerset
-    description: A splendid Palladian mansion with grand period interiors, plus 36 acres of parkland to stroll around
-    price: 125
+    location: Ramsgate, Kent
+    description: A Condé Nast Traveller-recommended seaside boutique hotel in scenic Ramsgate, with breakfast
+    price: 129
     price-description: per room per night
-    saved: 36
-    link: https://www.secretescapes.com/ston-easton-park-hotel-ston-easton-somerset/sale?gce_wsp=1&utm_source=SE&utm_medium=Hub&utm_campaign=Benefit_010617
+    saved: 39
+    link: https://www.secretescapes.com/albion-house-at-ramsgate-ramsgate-kent/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Benefit_060617
 
 
 ##  =========================
 ##  UNIQUE OFFERS
 ##  =========================
 
-  - title: The Aviator Hotel
+  - title: Upton Cressett Hall
     category: unique
-    location: Farnborough, Hampshire
-    description: A luxurious stay in a striking design hotel, with breakfast and optional three-course dinner
-    price: 89
-    price-description: per room per night
-    saved: 67
-    link: https://www.secretescapes.com/the-aviator-hotel-farnborough-hampshire/sale?gce_wsp=1&utm_source=SE&utm_medium=Hub&utm_campaign=Benefit_010617
-
-  - title: M by Montcalm Shoreditch London Tech City
-    category: unique
-    location: Shoreditch, London
-    description: Contemporary interiors and culinary delights at this five-star hotel, with summer availability
-    price: 180
-    price-description: per room per night
-    saved: 21
-    link: https://www.secretescapes.com/m-by-montcalm-shoreditch-london-tech-city-shoreditch-london/sale?gce_wsp=1&utm_source=SE&utm_medium=Hub&utm_campaign=Benefit_010617
-
-  - title: Tamburlaine
-    category: unique
-    location: Station Road, Cambridge
-    description: Gorgeous, newly-opened designer-led digs, located by the train station and near central sights
+    location: Bridgnorth, Shropshire
+    description: An atmospheric stay in a Tudor gatehouse in Shropshire, once host to princes and courtiers
     price: 139
     price-description: per room per night
-    saved: 61
-    link: https://www.secretescapes.com/tamburlaine-hotel-station-road-cambridge/sale?gce_wsp=1&utm_source=SE&utm_medium=Hub&utm_campaign=Benefit_010617
+    saved: 31
+    link: https://www.secretescapes.com/upton-cressett-hall-bridgnorth-shropshire/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Benefit_060617
+
+  - title: East Thorne Yurts
+    category: unique
+    location: Bude, Cornwall
+    description: A unique glamping experience in a spacious yurt with a cosy log burning stove
+    price: 69
+    price-description: per yurt per night
+    saved: 36
+    link: https://www.secretescapes.com/east-thorne-yurts-bude-cornwall/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Benefit_060617
+
+  - title: Browning Bros. Glamping
+    category: unique
+    location: Colchester, Essex
+    description: A glamping break in the gorgeous Essex countryside, just south of Colchester
+    price: 75
+    price-description: per room per night
+    saved: 51
+    link: https://www.secretescapes.com/browning-bros-glamping-colchester-essex/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Benefit_060617
+
+  - title: The Bell in Ticehurst
+    category: unique
+    location: Ticehurst, East Sussex
+    description: Eccentric stay at an award-winning boutique inn, bedding down in a uniquely designed room or lodge
+    price: 75
+    price-description: per room per night
+    saved: 57
+    link: https://www.secretescapes.com/the-bell-in-ticehurst-ticehurst-east-sussex/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Benefit_060617
 
 
